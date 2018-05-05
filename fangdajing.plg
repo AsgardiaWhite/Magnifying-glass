@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fangdajing - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP814.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/fangdajing.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\C++³ÌÐò\fangdajing\fangdajingDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP814.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP824.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/fangdajing.pdb" /debug /machine:I386 /out:"Debug/fangdajing.exe" /pdbtype:sept 
+".\Debug\DSSDlg.obj"
+".\Debug\fangdajing.obj"
+".\Debug\fangdajingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\fangdajing.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP824.tmp"
+<h3>Output Window</h3>
+Compiling...
+fangdajingDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+fangdajing.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
