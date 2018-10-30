@@ -1,2 +1,2 @@
 # Magnifying glass
-这是一个基于MFC的放大镜项目，可以对鼠标所处的位置进行放大，加入了放大倍数选择的功能。
+A magnifying glass based on MFC graduation project
