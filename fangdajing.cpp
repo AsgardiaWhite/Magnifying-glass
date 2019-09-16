@@ -29,11 +29,12 @@ BOOL CFangdajingApp::InitInstance()
 
 	CFangdajingDlg dlg;	//实例化主程序窗口
 	m_pMainWnd = &dlg;	//获取句柄
-	int nResponse = dlg.DoModal();	//创建主程序窗口
+	dlg.DoModal(); //创建主程序窗口
+	/* int nResponse = dlg.DoModal();	//创建主程序窗口
 	//判断是否创建成功
 	if (nResponse == IDOK)
 	{}
 	else if (nResponse == IDCANCEL)
-	{}
+	{} */
 	return FALSE;
 }

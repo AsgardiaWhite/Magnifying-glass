@@ -9,25 +9,25 @@
 
 class CFangdajingDlg : public CDialog
 {
-public:
-	CFangdajingDlg(CWnd* pParent = NULL);
+	public:
+		CFangdajingDlg(CWnd* pParent = NULL);
 
-	enum { IDD = IDD_FANGDAJING_DIALOG };
+		enum { IDD = IDD_FANGDAJING_DIALOG };
 	protected:
-	virtual void DoDataExchange(CDataExchange* pDX);
-protected:
-	CComboBox m_ComboBox;
-	int m_isCreated;
-	CDSSDlg Dlg;
-	HICON m_hIcon;
+		virtual void DoDataExchange(CDataExchange* pDX);
+	protected:
+		CComboBox m_ComboBox;
+		int m_isCreated;
+		CDSSDlg Dlg;
+		HICON m_hIcon;
 
-	virtual BOOL OnInitDialog();
-	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
-	afx_msg void OnPaint();
-	afx_msg HCURSOR OnQueryDragIcon();
-	afx_msg void OnButton1();
-	afx_msg void OnButton2();
-	DECLARE_MESSAGE_MAP()
+		virtual BOOL OnInitDialog();
+		afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
+		afx_msg void OnPaint();
+		afx_msg HCURSOR OnQueryDragIcon();
+		afx_msg void OnButton1();
+		afx_msg void OnButton2();
+		DECLARE_MESSAGE_MAP()
 };
 
 #endif

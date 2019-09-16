@@ -1,2 +1,7 @@
 ﻿cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-cl : 命令行 error D8016: “/ZI”和“/Gy-”命令行选项不兼容
+  fangdajingDlg.cpp
+  fangdajing.cpp
+g:\github项目\magnifying-glass\fangdajing.cpp(25): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  d:\visual studio2017\vc\tools\msvc\14.16.27023\atlmfc\include\afxwin.h(5229): note: 参见“CWinApp::Enable3dControls”的声明
+  正在生成代码...
+  fangdajing.vcxproj -> G:\GitHub项目\Magnifying-glass\.\Debug\fangdajing.exe

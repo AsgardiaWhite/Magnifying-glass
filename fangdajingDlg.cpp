@@ -133,15 +133,12 @@ void CFangdajingDlg::OnButton1()
     g_number=GetDlgItemInt(IDC_COMBO1);	//获取放大倍数
 	
 	//如果已经创建放大窗口，则关闭它。如果不存在则创建该窗口。通过设置标志位进行判断。
-	if(m_isCreated==0)
-	{
+	if(m_isCreated==0){
 		SetDlgItemText(IDC_BUTTON1, "停止放大");
 		Dlg.Create (IDD_DSS_DIALOG);
 		Dlg.ShowWindow (SW_SHOW);
 		m_isCreated=1;
-	}
-	else
-	{
+	}else{
 		SetDlgItemText(IDC_BUTTON1, "开始放大");
 		Dlg.DestroyWindow ();
 		m_isCreated=0;
